@@ -13,5 +13,3 @@ const Biography = React.forwardRef((props, ref) => {
 });
 
 export default Biography;
-
-gggg
