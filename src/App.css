@@ -1,0 +1,18 @@
+/* src/Navbar.css */
+
+:root {
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #23252B;
+  overflow-x: hidden; /* Mencegah gulir horizontal */
+  width: 100%;
+  font-family: 'Montserrat', system-ui, Helvetica, Arial, sans-serif, 'Inter';
+
+}
+
+@font-face {
+  font-family: 'Montserrat Extra Bold'; /* Nama yang akan Anda gunakan dalam properti font-family */
+  src: url('./fonts/Montserrat-ExtraBold.otf') format('opentype'); /* Sesuaikan path dan format */
+  font-style: normal;
+  font-display: swap; /* Penting untuk performa: menampilkan teks dengan font default dulu */
+}

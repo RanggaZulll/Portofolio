@@ -1,0 +1,47 @@
+/* src/Navbar.css */
+
+body {
+    margin: 0; 
+    padding: 0; 
+}
+
+
+.PosisiHeader{
+    position: fixed; 
+    top: 0;         
+    left: 0;         
+    width: 100%;     
+    z-index: 999;   
+    padding: 50px 50px; 
+    box-sizing: border-box;
+    display: flex; 
+    justify-content: flex-end; 
+    align-items: center; 
+}
+
+.Header{
+    display: flex; 
+    gap: 10px; /* Jarak antar NavLink */
+    align-items: center;
+}
+
+.Header a:hover {
+  text-decoration: underline; 
+
+}
+
+.Header a.active-link { 
+  text-decoration: underline; 
+}
+
+.Header a{
+  font-family: 'Inter';
+  font-size: 14px;
+  font-weight: 200;
+  text-decoration: none; 
+  color: white;
+  padding-right: 30px ;
+  padding-left: 30px ;
+
+}
+

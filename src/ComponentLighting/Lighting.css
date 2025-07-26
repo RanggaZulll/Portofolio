@@ -1,0 +1,33 @@
+.Lightingcss1 {
+  position: absolute;
+  top: -700px;
+  left: -700px;
+  /* ANIMASI UNTUK LIGHTINGCSS1 */
+  animation: fadeInOut 6s infinite alternate; /* 6s = total durasi siklus, infinite = berulang, alternate = maju mundur */
+  animation-delay: 6ms; 
+}
+
+.Lightingcss2 {
+  position: absolute;
+  top: 360px;
+  left: 1400px;
+  /* ANIMASI UNTUK LIGHTINGCSS2 */
+  animation: fadeInOut 10s infinite alternate; /* Durasi sama dengan Lightingcss1 */
+  animation-delay: 10ms; /* Contoh: buat delay berbeda agar tidak muncul bersamaan, sesuaikan */
+}
+
+/* ====== Keyframes untuk Animasi Hilang Timbul ====== */
+@keyframes fadeInOut {
+  0% {
+    opacity: 0; /* Mulai dari tidak terlihat */
+  }
+  25% {
+    opacity: 1; /* Muncul penuh pada 25% durasi (ini akan jadi 3s jika total 12s) */
+  }
+  75% {
+    opacity: 1; /* Tetap terlihat hingga 75% durasi */
+  }
+  100% {
+    opacity: 0; /* Hilang kembali pada 100% durasi */
+  }
+}

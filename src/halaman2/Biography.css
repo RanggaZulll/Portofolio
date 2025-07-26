@@ -1,0 +1,27 @@
+.Biography-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; <-- Hapus baris ini */
+    /* min-height: 100vh; <-- Hapus baris ini */
+    background-color: #1a1a1a; /* Mungkin Anda ingin warna latar belakang berbeda atau transparan jika HomeContent sudah punya background */
+    color: white;
+    font-family: 'Arial', sans-serif;
+    padding: 80px 20px; /* Tambahkan padding agar tidak terlalu mepet */
+    box-sizing: border-box;
+    width: 100%; /* Pastikan mengambil lebar penuh dari parentnya */
+    /* Tambahkan margin-bottom agar ada jarak dengan section selanjutnya (jika ada) */
+    margin-bottom: 50px; /* Contoh jarak */
+}
+
+.Biography-container h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+.Biography-container p {
+    font-size: 1.2em;
+    line-height: 1.6;
+    max-width: 800px;
+    text-align: center;
+}
