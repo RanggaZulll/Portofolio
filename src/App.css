@@ -16,3 +16,7 @@
   font-style: normal;
   font-display: swap; /* Penting untuk performa: menampilkan teks dengan font default dulu */
 }
+
+html {
+  scroll-behavior: smooth;
+}

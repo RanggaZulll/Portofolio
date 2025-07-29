@@ -13,7 +13,7 @@ const handleAnimationComplete = () => {
 };
 
 
-function Home({ introRef, biographyRef }) {
+function Home() {
     return(
     <div className="HomeContent"> 
         <div className="ObjectLogo">
@@ -26,7 +26,7 @@ function Home({ introRef, biographyRef }) {
         <ComponentLighting /> 
         </div>
 
-    <div id="Home-intro-section" className="intro-hero-section" ref={introRef}>
+    <div  id="Home-intro-section" className="intro-hero-section" >
         <div className="title-subtitle-container">
             <div className="MainTitleSection">
                  <SplitText
@@ -54,7 +54,7 @@ function Home({ introRef, biographyRef }) {
 
 
  
-         <Biography ref={biographyRef} /> 
+         <Biography/> 
 
 
         <div className='LogoSocmed'>

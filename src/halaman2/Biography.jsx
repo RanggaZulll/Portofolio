@@ -1,15 +1,24 @@
 // src/halaman2/Biography.jsx
 import React from 'react'; 
+import ComponentLighting from '../ComponentLighting/LightingBiography.jsx'; 
 import './Biography.css';
 
 
-const Biography = React.forwardRef((props, ref) => {
+function Biography() {
   return (
-    <div id="Biography-section" className="Biography-container" ref={ref}>
-      <h1>Biography Page</h1>
-      <p>Ini adalah halaman untuk detail biografi Anda.</p>
+    <div  id="Biography-section" className="Biography-container">
+      <div className='BackgroundText'>
+        MUHAMMAD<br />
+        RANGGA<br />
+        ZULFIKAR
+      </div>
+
+      <div className="LightingBackground1">
+        <ComponentLighting />
+      </div>
+  
     </div>
   );
-});
+};
 
 export default Biography;
